@@ -32,3 +32,8 @@ a {
 img {
   width: 100%;
 }
+
+address {
+  font-family: inherit;
+  font-style: inherit;
+}
