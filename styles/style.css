@@ -128,7 +128,7 @@
 	border-color: inherit;
 	padding: 12px 32px;
 	color: inherit;
-	font-family: inherit;
+	font-family: Raleway, sans-serif;
 	font-size: inherit;
 	line-height: 25.83px;
 	text-transform: uppercase;
@@ -281,6 +281,7 @@
 	line-height: 21.13px;
 	text-align: center;
 }
+
 .footer__links-list {
 	list-style: none;
 }
@@ -290,9 +291,11 @@
 	letter-spacing: 0.1px;
 	text-underline-offset: 3px;
 }
+
 .footer__link_active {
 	text-decoration: none;
 }
+
 .footer__social-list {
 	display: flex;
 	justify-content: space-between;
