@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link href="fonts/fonts.css" rel="stylesheet"></link>
-    <link href="styles/global.css" rel="stylesheet"></link>
-    <link href="styles/style.css" rel="stylesheet"></link>
+    <link href="fonts/fonts.css" rel="stylesheet">
+    <link href="styles/global.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="primary">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item">
             <a class="header__link header__link_active" href="#0">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="#0">посмотреть лоты</a>
+            <a class="header__link" href="#lots">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="#0">об аукционе</a>
+            <a class="header__link" href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
       <a class="header__logo">
-        <img class="header__logo-image" src="images/logo-black.svg" alt="логотип сайта" class="logo">
+        <img class="header__logo-image" src="images/logo-black.svg" alt="логотип сайта">
       </a>
       <article class="address header__address">
+        <h4 class="hidden">контакты</h4>
         <address>
           <a href="tel:+99995555555">+9 999 555 5555</a><br>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
@@ -36,7 +37,7 @@
         </address>
       </article>
     </header>
-    <main>
+    <main class="main-grid">
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
@@ -53,7 +54,7 @@
           </button>
         </div>
       </section>
-      <section class="lots">
+      <section class="lots" id="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
@@ -98,7 +99,7 @@
         </ul>
         <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="about__column">
           <div class="about__logo">
             <img class="about__logo-image" src="images/logo-white.svg" alt="логотип сайта">
@@ -117,12 +118,12 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <article class="address footer__address">
+        <h4 class="hidden">контакты</h4>
         <address>
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-          <br>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <a href="tel:+99995555555">+9 999 555 5555</a><br>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
           наб. Принсенграхт 263-265,<br>
           Амстердам
         </address>
@@ -130,13 +131,13 @@
       <nav class="footer__menu">
         <ul class="footer__links-list">
           <li class="footer__links-list-item">
-            <a class="footer__link footer__link_active" href="#0">главная</a>
+            <a class="footer__link footer__link_active" href="#primary">главная</a>
           </li>
           <li class="footer__links-list-item">
-            <a class="footer__link" href="#0">посмотреть лоты</a>
+            <a class="footer__link" href="#lots">посмотреть лоты</a>
           </li>
           <li class="footer__links-list-item">
-            <a class="footer__link" href="#0">об аукционе</a>
+            <a class="footer__link" href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
