@@ -8,8 +8,8 @@
 }
 
 .header__menu {
-	align-self: center;
 	justify-self: start;
+	align-self: center;
 }
 
 .header__links-list {
@@ -158,8 +158,8 @@
 	justify-content: space-between;
 	gap: 25px;
 	min-height: 100%;
-	list-style: none;
 	margin-bottom: 30px;
+	list-style: none;
 }
 
 .lots__card-list-item {
@@ -283,11 +283,11 @@
 }
 
 .footer__menu {
+	padding-top: 1px;
+	padding-left: 1px;
 	font-size: 18px;
 	line-height: 21.13px;
 	text-align: center;
-	padding-top: 1px;
-	padding-left: 1px;
 }
 
 .footer__links-list {
@@ -295,10 +295,10 @@
 }
 
 .footer__link {
+	justify-self: end;
 	line-height: 21.13px;
 	letter-spacing: 0.1px;
 	text-underline-offset: 3px;
-	justify-self: end;
 }
 
 .footer__link_active {
